@@ -1,21 +1,21 @@
-# Project 3 - *Name of App Here*
+# Project 3 - Instagram Clone
 
-**Name of your app** is a photo sharing app similar to Instagram but using Parse as its backend.
+Instagram Clone is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **X** hours spent in total
+Time spent: 6 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User can sign up to create a new account using Parse authentication.
-- [ ] User can log in and log out of his or her account.
-- [ ] The current signed in user is persisted across app restarts.
-- [ ] User can take a photo, add a caption, and post it to "Instagram".
+- [X] User can sign up to create a new account using Parse authentication.
+- [X] User can log in and log out of his or her account.
+- [X] The current signed in user is persisted across app restarts.
+- [X] User can take a photo, add a caption, and post it to "Instagram".
 
 The following **optional** features are implemented:
 
-- [ ] User sees app icon in home screen and styled bottom navigation view
+- [X] User sees app icon in home screen and styled bottom navigation view
 - [ ] Style the feed to look like the real Instagram feed.
 - [ ] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse.
 
@@ -27,13 +27,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Joel5212/InstagramClone/blob/master/InstagramClone.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had a minor problem with my app going back to the previous activity after logging out which is not supposed to occur. When I push the back button, the app should just close and not go back to the previous activity. By using the finish() method I was able to resolve this problem.
 
 ## Open-source libraries used
 
@@ -42,7 +42,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Joel Joshy]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
