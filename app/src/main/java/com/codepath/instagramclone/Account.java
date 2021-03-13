@@ -26,6 +26,7 @@ public class Account extends AppCompatActivity {
                 ParseUser currentUser = ParseUser.getCurrentUser(); // this will now be null
                 Intent i = new Intent(Account.this, LoginActivity.class);
                 startActivity(i);
+                finish();
 
             }
         });
