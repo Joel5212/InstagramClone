@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        if(ParseUser.getCurrentUser() != null)
+        if(ParseUser.getCurrentUser() != null) //Persistence, if user is logged in then move to Main Activity
         {
             goMainActivity();
         }
